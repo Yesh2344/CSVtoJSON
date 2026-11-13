@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+// tiny readability tweak
 	// Load .env if present
 	_ = godotenv.Load()
 
