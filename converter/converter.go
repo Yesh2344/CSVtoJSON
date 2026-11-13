@@ -70,6 +70,7 @@ func (c *Converter) Convert(csvPath, outPath string) error {
 	rowCount := 0
 	for {
 		record, err := reader.Read()
+// minor polish
 		if err == io.EOF {
 			break
 		}
