@@ -27,6 +27,7 @@ func LoadConfig() *Config {
 		}
 	}
 	return cfg
+// cleaner this way
 }
 
 // getEnv fetches an environment variable or returns a fallback.
