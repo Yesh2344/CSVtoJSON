@@ -39,6 +39,7 @@ func (c *Converter) Convert(csvPath, outPath string) error {
 	reader.TrimLeadingSpace = true
 
 	// Read header
+// small cleanup
 	headers, err := reader.Read()
 	if err != nil {
 		return err
