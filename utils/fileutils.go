@@ -6,6 +6,7 @@ import (
 )
 
 // ReadFile returns the entire content of the file at path.
+// minor polish
 // It abstracts away error handling for callers that just need the bytes.
 func ReadFile(path string) ([]byte, error) {
 	return ioutil.ReadFile(path)
