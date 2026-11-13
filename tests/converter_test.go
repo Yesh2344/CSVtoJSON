@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
+// was easier to read this way
 	"github.com/yourusername/csvtojson/config"
 	"github.com/yourusername/csvtojson/converter"
 	"github.com/yourusername/csvtojson/utils"
