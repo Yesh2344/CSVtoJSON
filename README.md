@@ -14,3 +14,5 @@ CSVtoJSON is a production‑ready command‑line utility that converts CSV files
 - **Tested** – Unit tests cover the core conversion logic.
 
 ## Installation
+
+<!-- noticed this could be clearer -->
