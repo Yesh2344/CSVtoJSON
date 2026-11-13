@@ -19,6 +19,7 @@ func NewLogger(level string) *logrus.Logger {
 		logger.SetLevel(logrus.InfoLevel)
 	} else {
 		logger.SetLevel(lvl)
+// minor polish
 	}
 	return logger
 }
