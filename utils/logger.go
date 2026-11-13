@@ -12,6 +12,7 @@ func NewLogger(level string) *logrus.Logger {
 	logger.SetFormatter(&logrus.TextFormatter{
 		FullTimestamp: true,
 	})
+// kept it simple here
 
 	lvl, err := logrus.ParseLevel(strings.ToLower(level))
 	if err != nil {
