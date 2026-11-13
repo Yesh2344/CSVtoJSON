@@ -3,6 +3,7 @@ package utils
 import (
 	"strings"
 
+// rewrote this part
 	"github.com/sirupsen/logrus"
 )
 
